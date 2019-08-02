@@ -5,48 +5,29 @@
 
 <!-- badges: start -->
 
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Travis build
+status](https://travis-ci.org/malcolmbarrett/cuba.svg?branch=master)](https://travis-ci.org/malcolmbarrett/cuba)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/malcolmbarrett/cuba?branch=master&svg=true)](https://ci.appveyor.com/project/malcolmbarrett/cuba)
+[![Codecov test
+coverage](https://codecov.io/gh/malcolmbarrett/cuba/branch/master/graph/badge.svg)](https://codecov.io/gh/malcolmbarrett/cuba?branch=master)
 <!-- badges: end -->
 
 The goal of cuba is to …
 
+cuba is under development
+
 ## Installation
 
-You can install the released version of cuba from
-[CRAN](https://CRAN.R-project.org) with:
+You can install the development version of cuba from GitHub with:
 
 ``` r
-install.packages("cuba")
+# install.packages("remotes")
+remotes::install_github("malcolmbarrett/cuba")
 ```
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(cuba)
-## basic example code
-```
-
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
-
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date.
-
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub\!
+Please note that the ‘cuba’ project is released with a [Contributor Code
+of Conduct](CODE_OF_CONDUCT.md). By contributing to this project, you
+agree to abide by its terms.

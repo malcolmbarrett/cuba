@@ -4,3 +4,9 @@
 ^_pkgdown\.yml$
 ^docs$
 ^pkgdown$
+^CODE_OF_CONDUCT\.md$
+^\.github$
+^LICENSE\.md$
+^\.travis\.yml$
+^appveyor\.yml$
+^codecov\.yml$
