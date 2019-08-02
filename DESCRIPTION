@@ -14,3 +14,5 @@ Language: es
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
+URL: https://github.com/malcolmbarrett/cuba
+BugReports: https://github.com/malcolmbarrett/cuba/issues
