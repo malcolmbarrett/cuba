@@ -15,7 +15,14 @@ status](https://ci.appveyor.com/api/projects/status/github/malcolmbarrett/cuba?b
 coverage](https://codecov.io/gh/malcolmbarrett/cuba/branch/master/graph/badge.svg)](https://codecov.io/gh/malcolmbarrett/cuba?branch=master)
 <!-- badges: end -->
 
-The goal of cuba is to …
+cuba is an R package for applying quantitative bias analysis (QBA).
+Often, simple data problems prohibit proper inference. For instance,
+mismeasuring the exposure you are studying will distort the estimate
+your model produces. QBA allows you to use external data or assumptions
+to conduct sensitivity analyses and adjustments to understand how data
+problems, such as measurement error or missingness, affect your results.
+cuba takes an expressive, composable approach to specifying assumptions
+and validation data for use for a wide variety of problems.
 
 cuba is under development
 
